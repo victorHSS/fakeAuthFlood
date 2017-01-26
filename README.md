@@ -17,6 +17,6 @@ Onde:
   
 # Exemplo
 airodump --essid rede -c 6 -t WEP mon0
+
 ./fakeAuthFlood fakeauth_opn 32 rede
 
->>> DoS
