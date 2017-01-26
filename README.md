@@ -14,3 +14,9 @@ Onde:
   fakeauth_opn	NUM ESSID	-->	realiza NUM falsas autenticacoes na rede ESSID
 
   fakeauth_ska	NUM ESSID XOR	--> realiza NUM falsas autenticacoes na rede ESSID usando keystream do arquivo XOR
+  
+# Exemplo
+airodump --essid rede -c 6 -t WEP mon0
+./fakeAuthFlood fakeauth_opn 32 rede
+
+>>> DoS
